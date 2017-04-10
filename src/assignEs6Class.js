@@ -1,5 +1,4 @@
-'use strict';
-module.exports = function assignES6Class(inst1, inst2, pattern) {
+export default function assignEs6Class(inst1, inst2) {
 
   function getES6Descriptors(obj1,obj2) {
    var descriptors = Object.getOwnPropertyNames(obj1).reduce((descriptors, key) => {

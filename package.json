@@ -1,11 +1,21 @@
 {
   "name": "assign-es6-class",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Object.assign for es6 classes",
-  "main": "src/index.js",
+  "main": "dist/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
   },
   "author": "Andrew Chung",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "pump": "^1.0.2",
+    "rollup": "^0.41.6",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "uglify-js-harmony": "^2.7.5"
+  }
 }

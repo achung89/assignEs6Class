@@ -1,5 +1,6 @@
-'use strict';
+import assignEs6Class from './assignEs6Class.js';
 
-const assignEs6Class = require('assignEs6Class.js');
+import assignEs6Class_min from './min/assignEs6Class.min.js';
 
-module.exports = assignEs6Class;
+export default assignEs6Class;
+export { assignEs6Class_min };
