@@ -1,10 +1,14 @@
 {
   "name": "assign-es6-class",
-  "version": "1.0.4",
+  "version": "1.0.10",
   "description": "Object.assign for es6 classes",
   "main": "dist/bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/achung89/assignEs6Class"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "webpack-dev-server",
     "build": "gulp build"
   },
   "author": "Andrew Chung",
@@ -16,6 +20,8 @@
     "pump": "^1.0.2",
     "rollup": "^0.41.6",
     "rollup-plugin-node-resolve": "^3.0.0",
-    "uglify-js-harmony": "^2.7.5"
+    "uglify-js-harmony": "^2.7.5",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
   }
 }
